@@ -1,0 +1,54 @@
+* {
+	font-family: "Gill Sans", sans-serif;
+
+}
+
+body {
+
+  /* For browsers that do not support gradients */
+    background: linear-gradient(#030357, #3e3b86, #6f6cb0, #3e3b86, #030357);
+
+	height: 100vh;
+ 
+}
+
+.coin {
+
+	display: flex;
+    justify-content: right;
+    align-items: center;
+ 	padding-right: 30px;
+
+
+}
+
+.coin_img {
+	height: 120px;
+	weight: 120px;
+	margin-right: 10px;
+/*	align-content: right;*/
+
+}
+
+.coin-text {
+	font-size: 45px;
+}
+
+.main_text {
+  z-index: 2;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+text-shadow: 6px 6px 8px rgba(0, 0, 0, 0.73);
+}
+
+.sad-hamster{
+	z-index: 1;
+	position: absolute;
+  	bottom: 0;
+  	left: 10px;
+ 	pudding-right: 10px;
+ 
+}
